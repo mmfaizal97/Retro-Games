@@ -74,7 +74,7 @@ public class Gameplay extends JPanel implements KeyListener, ActionListener {
         g.setColor(Color.WHITE);
         g.setFont(new Font("serif", Font.BOLD, 25));
         g.drawString("Score : " + score, 570, 30);
-        g.drawString("Time : " + timer.toString(), 30, 30);
+        //g.drawString("Time : " + timer.toString(), 30, 30);
 
         // the paddle
         g.setColor(Color.GREEN);
